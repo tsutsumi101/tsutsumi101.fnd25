@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('Logo_kitchen.jpg');
+  background-size: 60%;
+  background-position: center;
+  height: 200px;
+  color: brown;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 5.0rem;
+  margin: 0;
+}
+
+p {
+  font-size: 2.0rem;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  font-size: 2.0rem;
+}
+
+#partInput,
+#quantityInput,
+#contactNameInput,
+#phoneNumberInput {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+#addButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #45a049;
+}
+
+.checked-text {
+  text-decoration: line-through;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px; /* ここにmargin-rightを追加して一文字分のスペースを設定 */
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+
+footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  padding: 50px;
+  font-size: 1.5rem
+}
+
+#partList {
+  list-style-type: none;
+}
+
+#partList li {
+  margin-bottom: 50px;
+}
+
+#partList li input[type="checkbox"] {
+  transform: scale(1.5);  
+  margin-right: 20px;
+}
