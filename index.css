@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-image: url('Logo.jpg'); /* 画像のパスに適切なものを指定する */
+    background-size: 60%; /* 画像をヘッダーサイズに合わせて調整 */
+    background-position: center;
+    height: 200px; /* ヘッダーの高さを適切に設定 */
+    color: brown; /* テキストの色を白に設定 */
+    text-align: center; /* テキストを中央揃えにする */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 5.0rem; /* タイトルのフォントサイズ */
+    margin: 0;
+  }
+  
+  p {
+    font-size: 2.0rem; /* サブタイトルのフォントサイズ */
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;    /*フォントに置き換えます */
+  }
+
+center {
+    font-size: 3.0rem;
+    margin:0;
+}
